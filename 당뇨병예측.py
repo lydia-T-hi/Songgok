@@ -1,12 +1,13 @@
 # app.py
 import streamlit as st
-import pandas as pd
 import numpy as np
-import platform
-import matplotlib.font_manager as fm
-
+import pandas as pd
 import matplotlib.pyplot as plt
-
+import seaborn as sns
+import plotly.express as px
+import matplotlib.font_manager as fm
+import platform
+from matplotlib import rc
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
